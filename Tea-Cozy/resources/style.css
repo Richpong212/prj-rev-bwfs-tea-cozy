@@ -1,0 +1,180 @@
+body {
+  width: 100%;
+  margin: auto;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  margin-left: 10px;
+
+}
+
+a {
+  color: seashell;
+  margin: 15px;
+}
+
+nav {
+  float: right;
+  padding-top: 25px;
+  position: relative;
+  left: 350px;
+}
+
+.logo img {
+  height: 50px;
+  padding-top: 10px;
+  position: relative;
+  right: 350px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.part1 {
+  background-image: url("./images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.images1 img {
+  width: 300px;
+  height: 200px;
+  margin-right: 25px;
+  padding-bottom: 10px;
+}
+
+.images2 img {
+  width: 300px;
+  height: 200px;
+  margin-right: 25px;
+  padding-bottom: 10px;
+}
+
+.image-container1 {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  position: relative;
+  left: 100px;
+}
+
+.image-container2 {
+  display: flex;
+  width: 1000px;
+  left: 250px;
+  position: relative;
+  right: 30px;
+}
+
+.part2 {
+  text-align: center;
+  width: 1000px;
+  position: relative;
+  left: 100px;
+}
+
+.part3 {
+  background-image: url("./images/img-locations-background.jpg");
+  height: 600px;
+  width: 1200px;
+  text-align: center;
+
+}
+
+.location1 {
+  position: relative;
+  width: 300px;
+  top: 70px;
+  background-color: black;
+  margin-left: 70px;
+  height: 300px;
+  right: 40px;
+  padding-top: 10px;
+}
+
+.sub-loc1 {
+  padding: 50px;
+}
+
+.location2{
+  position: relative;
+  width: 300px;
+  left: 400px;
+  bottom: 240px;
+  background-color: black;
+  height: 300px;
+  right: 40px;
+  padding-top: 10px;
+}
+
+.local {
+   position: relative;
+   width: 300px;
+   left: 760px;
+   bottom: 550px;
+   background-color: black;
+   height: 300px;
+   padding-top: 10px;
+}
+
+.origin {
+  position: relative;
+  right: 70px;
+  top: 85px;
+  opacity: 1;
+}
+
+.part4 {
+  text-align: center;
+  height: 200px;
+  position: relative;
+  left: 60px;
+}
+
+footer {
+  text-align: left;
+  position: relative;
+  right: 350px;
+  margin-left: 20px;
+}
+
+
+.part1-sub {
+  top: 300px;
+  background-color: black;
+  height: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.img-h4 {
+  text-align: center;
+  margin: 10px;
+}
